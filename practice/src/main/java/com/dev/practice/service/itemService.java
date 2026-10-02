@@ -12,4 +12,8 @@ public class itemService {
     {
         return repo.findAll();
     }
+
+    public Items getItemsById(int id) {
+        return repo.findById(id).orElse(null);
+    }
 }
