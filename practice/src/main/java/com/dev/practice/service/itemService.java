@@ -11,6 +11,5 @@ public class itemService {
     public List<Items> getAllItems()
     {
         return repo.findAll();
-
     }
 }
